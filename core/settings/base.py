@@ -50,17 +50,20 @@ DJANGO_APPS = [
 CUSTOM_APPS = [
     "apps.common",
     "apps.users",
+    "apps.task1",
+    "apps.task2",
+    "apps.task3",
 ]
 
 THIRD_PARTY_APPS = [
-    # "rest_framework",
+    "rest_framework",
     # "django_filters",
-    # "drf_yasg",  # swagger
+    "drf_yasg",  # swagger
     # "corsheaders",  # cors headers
     # "rest_framework_simplejwt",  # JWT Authentication
-    # "ckeditor",  # CKEditor
+    #"ckeditor",  # CKEditor
     # "ckeditor_uploader",  # CKEditor
-    # "sorl.thumbnail",  # for image compressing
+    "sorl.thumbnail",  # for image compressing
 ]
 
 INSTALLED_APPS = DJANGO_APPS + CUSTOM_APPS + THIRD_PARTY_APPS
